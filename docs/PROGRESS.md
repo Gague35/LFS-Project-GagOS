@@ -114,12 +114,14 @@
 * [x] Creating Directories
 * [x] Creating Essential Files and Symlinks
 * [x] Gettext
-* [ ] Bison
-* [ ] Perl
-* [ ] Python
-* [ ] Texinfo
-* [ ] Util-linux
-* [ ] Stripping and Saving the Temporary System
+* [x] Bison
+* [x] Perl
+* [x] Zlib
+* [x] mpdecimal
+* [x] Python
+* [x] Texinfo
+* [x] Util-linux
+* [x] Stripping and Saving the Temporary System
 
 ## Chapter 8 — Installing Basic System Software
 
@@ -128,7 +130,6 @@
 * [ ] Man-pages
 * [ ] Iana-Etc
 * [ ] Glibc
-* [ ] Zlib
 * [ ] Bzip2
 * [ ] Xz
 * [ ] Lz4
