@@ -1,0 +1,19 @@
+# LFS build files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build artifacts
+build/
+out/
+
+#Others
+notes.txt
