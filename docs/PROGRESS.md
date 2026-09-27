@@ -107,13 +107,13 @@
 
 ## Chapter 7 — Entering Chroot and Building Additional Temporary Tools
 
-* [ ] Introduction
-* [ ] Changing Ownership
-* [ ] Preparing Virtual Kernel File Systems
-* [ ] Entering the Chroot Environment
-* [ ] Creating Directories
-* [ ] Creating Essential Files and Symlinks
-* [ ] Gettext
+* [x] Introduction
+* [x] Changing Ownership
+* [x] Preparing Virtual Kernel File Systems
+* [x] Entering the Chroot Environment
+* [x] Creating Directories
+* [x] Creating Essential Files and Symlinks
+* [x] Gettext
 * [ ] Bison
 * [ ] Perl
 * [ ] Python

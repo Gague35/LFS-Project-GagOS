@@ -21,3 +21,24 @@ The archive was then verified using `md5sum -c md5sums`.
 ### Status
 
 Resolved.
+
+## Grep / Sed
+
+### Problem
+
+`grep` and `sed` were missing from the LFS environment when building `gettext` in Chapter 7.
+
+### Resolution
+
+The programs had been built during Chapter 6 but were not correctly installed into `$LFS/usr`.
+
+They were reinstalled as `root` using:
+
+```bash
+make DESTDIR=$LFS install
+```
+
+### Status
+
+Resolved.
+

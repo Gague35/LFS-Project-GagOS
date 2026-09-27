@@ -1,155 +1,241 @@
 # Compilation Times
 
-***Reference SBU: 23.648 s***
+Compilation times measured during the construction of GagOS following the Linux From Scratch book.
 
-## **Chapter 5**
+> **Reference SBU:** 23.648 seconds
+
+SBU is calculated as:
+
+```text
+Measured SBU = real time / 23.648
+```
+
+## Chapter 5 — Cross-Toolchain
 
 ### Binutils Pass 1
 
-* real: 23.648 s
-* SBU: 1.00
+* **LFS:** 1.0 SBU
+* **Real:** 23.648 s
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** 1.00
 
 ### GCC Pass 1
 
-* real: 2m46.566s
-* user: 26m03.200s
-* sys: 1m16.775s
-* SBU: ~7.04
+* **LFS:** —
+* **Real:** 2m46.566s
+* **User:** 26m03.200s
+* **Sys:** 1m16.775s
+* **Measured SBU:** ≈ 7.04
 
 ### Linux API Headers
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Glibc
 
-* real: 49.660 s
-* user: 7m08.813 s
-* sys: 1m21.344 s
-* SBU: ~2.10
+* **LFS:** —
+* **Real:** 49.660 s
+* **User:** 7m08.813s
+* **Sys:** 1m21.344s
+* **Measured SBU:** ≈ 2.10
 
 ### Libstdc++
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
-## **Chapter 6**
+## Chapter 6 — Temporary Tools
 
 ### M4
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Ncurses
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Bash
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Coreutils
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Diffutils
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### File
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Findutils
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Gawk
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Grep
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Gzip
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Make
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Patch
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Sed
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Tar
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Xz
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Binutils Pass 2
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### GCC Pass 2
 
-* Time not measured
+* **LFS:** —
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
-## **Chapter 7**
-
-> Build times are measured using `time make`.
-> Packages with a build time below 0.1 SBU are not measured.
+## Chapter 7 — Entering the Chroot
 
 ### Gettext-1.0
 
-* LFS time: 1.5 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 1.5 SBU
+* **Real:** 1m10.034s
+* **User:** 2m16.558s
+* **Sys:** 0m16.062s
+* **Measured SBU:** ≈ 2.96
 
 ### Bison-3.8.2
 
-* LFS time: 0.2 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 0.2 SBU
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Perl-5.44.0
 
-* LFS time: 0.6 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 0.6 SBU
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Python-3.14.7
 
-* LFS time: 0.5 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 0.5 SBU
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Texinfo-7.3
 
-* LFS time: 0.2 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 0.2 SBU
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
 
 ### Util-linux-2.42.2
 
-* LFS time: 0.2 SBU
-* real:
-* user:
-* sys:
-* SBU:
+* **LFS:** 0.2 SBU
+* **Real:** —
+* **User:** —
+* **Sys:** —
+* **Measured SBU:** —
