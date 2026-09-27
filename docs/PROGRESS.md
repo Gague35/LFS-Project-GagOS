@@ -283,7 +283,7 @@ GCC Pass 2
 ## Next Step
 
 ```text
-Gettext
+Introduction
 ```
 
 ## Overall Progress
