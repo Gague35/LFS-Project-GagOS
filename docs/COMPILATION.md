@@ -1,9 +1,8 @@
 # Compilation Times
 
-Compilation times measured during the construction of GagOS following the Linux From Scratch book.
+Compilation times recorded during the construction of GagOS following the **Linux From Scratch** book.
 
-> Only the most important and/or computationally significant packages are recorded here.
-> Small or routine packages are intentionally omitted.
+> Only the most important and/or computationally significant packages are recorded here. Small or routine packages are intentionally omitted.
 
 > **Reference SBU:** 23.648 seconds
 
@@ -13,36 +12,33 @@ SBU is calculated as:
 Measured SBU = real time / 23.648
 ```
 
+Only the **Measured SBU** is retained for builds that were timed. No further build-time measurements will be recorded.
+
+---
+
 ## Chapter 5 — Cross-Toolchain
 
 ### Binutils Pass 1
 
 * **LFS:** 1.0 SBU
-* **Real:** 23.648 s
-* **User:** —
-* **Sys:** —
 * **Measured SBU:** 1.00
 
 ### GCC Pass 1
 
 * **LFS:** —
-* **Real:** 2m46.566s
-* **User:** 26m03.200s
-* **Sys:** 1m16.775s
 * **Measured SBU:** ≈ 7.04
 
 ### Glibc
 
 * **LFS:** —
-* **Real:** 49.660 s
-* **User:** 7m08.813s
-* **Sys:** 1m21.344s
 * **Measured SBU:** ≈ 2.10
 
 ### Libstdc++
 
 * **LFS:** —
 * **Measured:** Not measured
+
+---
 
 ## Chapter 6 — Temporary Tools
 
@@ -56,28 +52,75 @@ Measured SBU = real time / 23.648
 * **LFS:** —
 * **Measured:** Not measured
 
+---
+
 ## Chapter 7 — Entering the Chroot
 
 ### Gettext-1.0
 
 * **LFS:** 1.5 SBU
-* **Real:** 1m10.034s
-* **User:** 2m16.558s
-* **Sys:** 0m16.062s
 * **Measured SBU:** ≈ 2.96
 
 ### Python-3.14.7
 
 * **LFS:** 0.5 SBU
-* **Real:** 0m16.521s
-* **User:** 2m59.079s
-* **Sys:** 0m7.285s
-* **Measured:** ≈ 0.7
+* **Measured SBU:** ≈ 0.70
 
 ### Util-linux-2.42.2
 
 * **LFS:** 0.2 SBU
-* **Real:** 0m6.863s
-* **User:** 1m10.934s
-* **Sys:** 0m7.110s
-* **Measured:** ≈ 0.29
+* **Measured SBU:** ≈ 0.29
+
+---
+
+## Chapter 8 — Base System
+
+### Glibc-2.44
+
+* **LFS:** 11 SBU
+* **Measured SBU:** ≈ 0.21
+
+### Binutils-2.47
+
+* **LFS:** 1.7 SBU
+* **Measured:** Not measured
+
+### GCC-16.2.0
+
+* **LFS:** 53 SBU (with tests)
+* **Measured:** Not measured
+
+### Ncurses-6.6
+
+* **LFS:** 0.2 SBU
+* **Measured:** Not measured
+
+### Perl-5.44.0
+
+* **LFS:** 1.3 SBU
+* **Measured:** Not measured
+
+### OpenSSL-4.0.1
+
+* **LFS:** 1.9 SBU
+* **Measured:** Not measured
+
+### Python-3.14.7
+
+* **LFS:** 2.7 SBU
+* **Measured:** Not measured
+
+### GRUB-2.14
+
+* **LFS:** 1.0 SBU
+* **Measured:** Not measured
+
+### Util-linux-2.42.2
+
+* **LFS:** 0.5 SBU
+* **Measured:** Not measured
+
+### E2fsprogs-1.47.4
+
+* **LFS:** 0.4 SBU (SSD) / 2.4 SBU (HDD)
+* **Measured:** Not measured

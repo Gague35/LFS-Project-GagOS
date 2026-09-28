@@ -125,26 +125,26 @@
 
 ## Chapter 8 — Installing Basic System Software
 
-* [ ] Introduction
-* [ ] Package Management
-* [ ] Man-pages
-* [ ] Iana-Etc
-* [ ] Glibc
-* [ ] Bzip2
-* [ ] Xz
-* [ ] Lz4
-* [ ] Zstd
-* [ ] File
-* [ ] Readline
-* [ ] Pcre2
-* [ ] M4
-* [ ] Bc
-* [ ] Flex
-* [ ] Tcl
-* [ ] Expect
-* [ ] DejaGNU
-* [ ] Pkgconf
-* [ ] Binutils
+* [x] Introduction
+* [x] Package Management
+* [x] Man-pages
+* [x] Iana-Etc
+* [x] Glibc
+* [x] Bzip2
+* [x] Xz
+* [x] Lz4
+* [x] Zstd
+* [x] File
+* [x] Readline
+* [x] Pcre2
+* [x] M4
+* [x] Bc
+* [x] Flex
+* [x] Tcl
+* [x] Expect
+* [x] DejaGNU
+* [x] Pkgconf
+* [x] Binutils
 * [ ] GMP
 * [ ] MPFR
 * [ ] MPC
