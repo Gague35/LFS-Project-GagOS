@@ -145,14 +145,14 @@
 * [x] DejaGNU
 * [x] Pkgconf
 * [x] Binutils
-* [ ] GMP
-* [ ] MPFR
-* [ ] MPC
-* [ ] Attr
-* [ ] Acl
-* [ ] Libcap
-* [ ] Libxcrypt
-* [ ] Shadow
+* [x] GMP
+* [x] MPFR
+* [x] MPC
+* [x] Attr
+* [x] Acl
+* [x] Libcap
+* [x] Libxcrypt
+* [x] Shadow
 * [ ] GCC
 * [ ] Ncurses
 * [ ] Sed
